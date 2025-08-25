@@ -1,0 +1,36 @@
+.footer {
+  height: 399px;
+  width: 100%;
+  background: #0a0e1a;
+  &-wrapper {
+    color: white;
+    padding: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .footer-items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .first {
+        gap: 60px;
+        display: flex;
+        flex-direction: row;
+      }
+      .second {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+      }
+      .third {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+      }
+    }
+    div {
+      flex: 50%;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.party {
+  &-wrapper {
+    // height: 411px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10%;
+    .party-head :first-child {
+      color: #5ab963;
+    }
+    .party-head {
+      font-size: larger;
+      p {
+        color: gray;
+      }
+    }
+  }
+  .party {
+    width: 160px;
+    height: 60px;
+    background: #5ab963;
+    color: white;
+    border-radius: 4px;
+    font-size: larger;
+  }
+}
